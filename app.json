@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "K-Coach (경진여객운수)",
+    "slug": "K-Coach",
+    "version": "0.1.1",
+    "orientation": "portrait",
+    "icon": "./assets/AppIcon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/SplashEdit.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#101421"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon-edit.png",
+        "backgroundColor": "#101421"
+       },  
+      "package": "com.kyungjin.kcoach",
+      "permissions": [],
+      "versionCode": 5
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
